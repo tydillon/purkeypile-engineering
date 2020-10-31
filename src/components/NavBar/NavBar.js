@@ -48,27 +48,47 @@ const NavBar = () => {
       >
         <div className='navbar-end'>
           <div className='navbar-item'>
-            <Link to='/about' style={styles.link}>
+            <Link
+              to='/about'
+              style={styles.link}
+              onClick={() => setBurger(false)}
+            >
               About Us
             </Link>
           </div>
           <div className='navbar-item'>
-            <Link to='/credentials' style={styles.link}>
+            <Link
+              to='/credentials'
+              style={styles.link}
+              onClick={() => setBurger(false)}
+            >
               Credentials
             </Link>
           </div>
           <div className='navbar-item'>
-            <Link to='/clients' style={styles.link}>
+            <Link
+              to='/clients'
+              style={styles.link}
+              onClick={() => setBurger(false)}
+            >
               Services
             </Link>
           </div>
           <div className='navbar-item'>
-            <Link to='/projects' style={styles.link}>
+            <Link
+              to='/projects'
+              style={styles.link}
+              onClick={() => setBurger(false)}
+            >
               Projects
             </Link>
           </div>
           <div className='navbar-item'>
-            <Link to='/contact' style={styles.link}>
+            <Link
+              to='/contact'
+              style={styles.link}
+              onClick={() => setBurger(false)}
+            >
               Contact Us
             </Link>
           </div>
@@ -84,6 +104,8 @@ const styles = {
     alignItems: 'center',
     width: '100%',
     justifyContent: 'space-between',
+    border: Colors.PURPLE.mid,
+    marginBottom: '3rem',
   },
   link: {
     color: 'white',
