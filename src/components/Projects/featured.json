@@ -24,7 +24,7 @@
         "description": "Employee moral was challenged due to long hours."
       }
     ],
-    "images": []
+    "images": ["proj-1-1.jpg", "proj-1-2.gif", "proj-1-3.gif"]
   },
   {
     "title": "Lindsey Street SPUI  over I-35 in Norman, Oklahoma",
@@ -51,7 +51,7 @@
         "description": "Due to varying super-elevations required from the approaching ramps and roadway, spot elevations were determined at specific points along the approach slabs and provided in the construction plans."
       }
     ],
-    "images": []
+    "images": ["proj-2-1.jpg", "proj-2-2.jpg"]
   },
   {
     "title": "I-40 Crosstown Expressway Relocation Project in Oklahoma City",
@@ -82,7 +82,7 @@
         "description": "The design of this bridge was the final phase for the I-40 Crosstown. The bridge was to be an iconic structure for Oklahoma City and modelled after the State Bird, the Scissor-Tailed Flycatcher. The structure was completed as a prefabricated truss with a timber deck and assembled on site. The substructure was engineered based on the provided loads from the fabrication specialist and rapidly completed."
       }
     ],
-    "images": []
+    "images": ["proj-3-1.jpg", "proj-3-2.jpg", "proj-3-3.jpg", "proj-3-4.jpg"]
   },
   {
     "title": "Lindsay Street over Imhoff Creek in Norman, Oklahoma",
@@ -105,7 +105,7 @@
         "description": "Design and detailing of the substructure elements were complicated by the architectural elements at the bridge ends. A substructure consisting of an irregular mat slab on steel H-piles was chosen."
       }
     ],
-    "images": []
+    "images": ["proj-4-1.jpg", "proj-4-2.jpg"]
   },
   {
     "title": "E. Rupe Road over Boggy Creek in Enid, Oklahoma",
@@ -114,7 +114,7 @@
     "role": "Project Manager",
     "responsibilities": "Bridge Rehabilitation Design and Details, Construction Specifications, Construction Services",
     "description": "This project consisted of bridge rehabilitation plans and specifications to achieve a new deck with an increased clear roadway and new rails. Other bridge deficiencies were addressed as well. Construction services were also an important part of this project and were addressed efficiently and effectively during construction.",
-    "images": []
+    "images": ["proj-5-1.jpg", "proj-5-2.jpg"]
   },
   {
     "title": "General Obligation Bond (GOB) Replacement of Load Posted Bridges in Enid, Oklahoma",
@@ -131,7 +131,7 @@
       "S. 42nd over Boggy Creek (Not Constructed Yet)",
       "E. Willow over Skeleton Creek"
     ],
-    "images": []
+    "images": ["proj-6-1.jpg", "proj-6-2.jpg", "proj-6-3.jpg"]
   },
   {
     "title": "E. Reno Ave. over Crooked Oak Creek in Del City, Oklahoma",
@@ -140,7 +140,7 @@
     "role": "Project Manager",
     "responsibilities": "Hydraulic Study, Bridge & Roadway Design and Details, Construction Specifications, Construction Services",
     "description": "This project consisted of the replacement of a structurally deficient bridge with a large three cell Reinforced Concrete Box structure with varying skewed wingwalls to efficiently direct flows. The challenge at this location was how to deal with a large Sanitary Sewer Line at the inlet side that could not be disturbed.",
-    "images": []
+    "images": ["proj-7-1.jpg"]
   },
   {
     "title": "S.H. 152 Retaining Walls in Binger, Oklahoma",
@@ -149,7 +149,7 @@
     "role": "Retaining Wall Design",
     "responsibilities": "Retaining Wall Design and Details",
     "description": "This project consisted of numerous cast-in-place retaining walls along the improved four lane section of S.H. 152. The challenges were dealing with the rolling terrain and existing utilities along with varying foundation parameters.",
-    "images": []
+    "images": ["proj-8-1.jpg", "proj-8-2.jpg"]
   },
   {
     "title": "N. Kelly Ave. over Hunter Creek in Edmond, Oklahoma",
@@ -158,7 +158,7 @@
     "role": "Bridge Design Project Manager",
     "responsibilities": "Hydraulic Study, Bridge Design and Details, Construction Specifications, Construction Services",
     "description": "This project consisted of a bridge replacement project for four lanes of traffic with sidewalks and a median. A Hydraulic Study was completed in a FEMA Zone AE that determined a bridge length and vertical grade that would produce a zero rise in backwater. Retaining walls were strategically placed on the east side to avoid encroachment to the existing Coffee Creek Golf course. The challenge was to balance the bridge sizing with the vertical grade and overtopping frequency as to not increase the 100-yr. flowrate.",
-    "images": []
+    "images": ["proj-9-1.jpg", "proj-9-2.jpg"]
   },
   {
     "title": "SH-28 over the Will Rogers Turnpike (I-44) near Adair, Oklahoma",
@@ -167,7 +167,7 @@
     "role": "Bridge Design Project Manager",
     "responsibilities": "Bridge Design and Details, Construction Specifications, Construction Services",
     "description": "This project consisted of a skewed four (4) span Steel Beam bridge with simple end spans and continuous steel plate girder main spans over the turnpike with length to allow for future expansion to the turnpike below. The challenge was to design and construct the bridge while maintaining traffic on SH-28 and the turnpike below. Coordination with the Dept. of Transportation was required during the design and review process. The challenge was to minimize the grade raise to SH-28 as much as possible.",
-    "images": []
+    "images": ["proj-10-1.jpg"]
   },
   {
     "title": "I-44 Widening from Arkansas River to S. Lewis Ave. in Tulsa, Oklahoma",
@@ -194,7 +194,7 @@
         "description": "The soundwall design and detailing was such that the detailing was reduced and could be applied from panel to panel. The challenge was to reduce the number of construction phases to only two to allow faster construction. Instead of constructing columns on top of the drilled shaft foundation system in a separate phase, the design and detailing of the wall incorporated a built-in column within the wall itself."
       }
     ],
-    "images": []
+    "images": ["proj-11-1.jpg", "proj-11-2.jpg", "proj-11-3.jpg"]
   },
   {
     "title": "SH-10 over Elk River (Grand Lake O’ The Cherokees) near Grove, Oklahoma",
@@ -203,7 +203,7 @@
     "role": "Bridge Design Project Manager",
     "responsibilities": "Hydraulic Study, Bridge Design and Details",
     "description": "This project consisted of a bridge replacement with an 850’ Prestressed Concrete Beam bridge with 52’ clear roadway and widened causeway. The challenge with this project was to design and detail the bridge in two phases to minimize the offset distance and to maintain traffic on the existing bridge while under construction.",
-    "images": []
+    "images": ["proj-12-1.jpg", "proj-12-2.jpg"]
   },
   {
     "title": "ODOT Division 2 Bridge Replacements",
@@ -218,7 +218,12 @@
       "SH-3 over the Kiamichi River",
       "SH-109 over the Kiamichi River"
     ],
-    "images": []
+    "images": [
+      "proj-13-1.jpg",
+      "proj-13-2.jpg",
+      "proj-13-3.jpg",
+      "proj-13-4.jpg"
+    ]
   },
   {
     "title": "East Creek Turnpike Expansions Project near Tulsa, Oklahoma",
@@ -235,6 +240,6 @@
       "N. 225th E. Ave. over US-412",
       "E. Pine St. over E. Creek T.P."
     ],
-    "images": []
+    "images": ["proj-14-1.jpg", "proj-14-2.jpg"]
   }
 ]

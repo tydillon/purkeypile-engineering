@@ -1,7 +1,6 @@
 import React from 'react'
 
 const AboutUs = () => {
-  console.log('This is about us!')
   return (
     <div>
       <h1 className='title'>About Us</h1>

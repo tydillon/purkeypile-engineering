@@ -11,18 +11,17 @@ import {
 } from './components'
 import { Home } from './components/Home'
 import {
-  Router,
   Switch,
   Route,
   Redirect,
   withRouter,
   BrowserRouter,
 } from 'react-router-dom'
-import history from './utils/history'
+//import history from './utils/history'
 
 const App = () => {
   return (
-    <BrowserRouter history={history}>
+    <BrowserRouter>
       <header>
         <NavBar />
       </header>
