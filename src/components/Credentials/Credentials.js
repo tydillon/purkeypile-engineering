@@ -1,9 +1,9 @@
 import React from 'react'
+import { PageWrap } from '../_common'
 
 const Credentials = () => {
   return (
-    <div>
-      <h1 className='title'>Credentials</h1>
+    <PageWrap title='Credentials'>
       <ul>
         <li>BS in Civil Engineering from Kansas State University in 1985</li>
         <li>Oklahoma Professional Engineer in 1990 – PE #16021.</li>
@@ -29,7 +29,7 @@ const Credentials = () => {
           </ul>
         </li>
       </ul>
-    </div>
+    </PageWrap>
   )
 }
 

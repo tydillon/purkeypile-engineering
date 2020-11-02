@@ -16,7 +16,7 @@ const Card = ({ card, setActiveCard, setModalIsOpen }) => {
           {card.images.length > 0 && (
             <img
               src={require(`../assets/${card.images[0]}`)}
-              alt='Placeholder'
+              alt={card.title}
             />
           )}
         </figure>

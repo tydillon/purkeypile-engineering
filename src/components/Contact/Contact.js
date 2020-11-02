@@ -1,9 +1,9 @@
 import React from 'react'
+import { PageWrap } from '../_common'
 
 const Contact = () => {
   return (
-    <div>
-      <h1 className='title'>Contact Us</h1>
+    <PageWrap title='Contact Us'>
       <div
         style={{
           display: 'flex',
@@ -50,7 +50,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </PageWrap>
   )
 }
 

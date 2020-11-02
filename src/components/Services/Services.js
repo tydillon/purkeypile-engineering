@@ -1,9 +1,9 @@
 import React from 'react'
+import { PageWrap } from '../_common'
 
 const Services = () => {
   return (
-    <div>
-      <h1 className='title'>Services</h1>
+    <PageWrap title='Services'>
       <ul>
         <li>
           <strong>Hydrology/ Hydraulic Bridge Study Services: </strong>We
@@ -51,7 +51,7 @@ const Services = () => {
         <br />
         E. Gene McCollom, PE (Retired) ODOT Assistant Bridge Engineer
       </p>
-    </div>
+    </PageWrap>
   )
 }
 

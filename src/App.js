@@ -4,12 +4,11 @@ import {
   AboutUs,
   Contact,
   Credentials,
-  //Home,
+  Home,
   Projects,
   Services,
   NavBar,
 } from './components'
-import { Home } from './components/Home'
 import {
   Switch,
   Route,
@@ -18,6 +17,7 @@ import {
   BrowserRouter,
 } from 'react-router-dom'
 //import history from './utils/history'
+import './index.css'
 
 const App = () => {
   return (

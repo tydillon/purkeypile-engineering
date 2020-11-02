@@ -2,14 +2,14 @@ import React from 'react'
 import { CardList, ProjectList } from './components'
 import featured from './featured.json'
 import projectList from './list.json'
+import { PageWrap } from '../_common'
 
 const Projects = () => {
   return (
-    <div>
-      <h1 className='title'>Projects</h1>
+    <PageWrap title='Projects'>
       <CardList cards={featured} />
       <ProjectList projects={projectList} />
-    </div>
+    </PageWrap>
   )
 }
 
