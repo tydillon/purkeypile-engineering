@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { PageWrap } from '../_common'
+import Colors from '../../config/colors'
 
 const Contact = () => {
   const [name, setName] = useState('')
@@ -82,14 +83,19 @@ const Contact = () => {
           </div>
           <div className='field is-grouped'>
             <div className='control'>
-              <button className='button is-link' onClick={handleSubmit}>
+              <button
+                className='button is-link'
+                onClick={handleSubmit}
+                style={{ backgroundColor: Colors.ORANGE.mid }}
+              >
                 Submit
               </button>
             </div>
             <div className='control'>
               <button
-                className='button is-link is-light'
+                className='button is-light'
                 onClick={handleCancel}
+                style={{ color: Colors.ORANGE.mid }}
               >
                 Cancel
               </button>
