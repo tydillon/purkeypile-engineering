@@ -12,7 +12,7 @@ const GREEN = {
 
 const ORANGE = {
   dark: '#795B00',
-  mid: '#C8A22E',
+  mid: '#F57B1D',
   light: '#FFE289',
 }
 

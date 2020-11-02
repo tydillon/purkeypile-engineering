@@ -1,5 +1,6 @@
 import React from 'react'
 import { PageWrap } from '../_common'
+import Colors from '../../config/colors'
 
 const services = [
   {
@@ -40,7 +41,9 @@ const Services = () => {
       <ul>
         {services.map((service) => (
           <li key={service.service} style={styles.li}>
-            <strong>{service.service}: </strong>
+            <strong style={{ color: Colors.ORANGE.mid }}>
+              {service.service}:{' '}
+            </strong>
             {service.description}
           </li>
         ))}

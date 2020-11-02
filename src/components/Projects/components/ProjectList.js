@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { isEmpty, reduce, concat } from 'ramda'
+import Colors from '../../../config/colors'
 
 const ProjectList = ({ projects }) => {
   const [activeProjects, setActiveProjects] = useState({})
@@ -20,11 +21,13 @@ const ProjectList = ({ projects }) => {
   }, [projects])
 
   return (
-    <nav
-      className='panel'
-      style={{ margin: '3rem', maxHeight: '500px', overflow: 'auto' }}
-    >
-      <p className='panel-heading'>Project List</p>
+    <nav className='panel' style={{ margin: '3rem', height: '500px' }}>
+      <p
+        className='panel-heading'
+        style={{ backgroundColor: Colors.PURPLE.light, color: 'white' }}
+      >
+        Project List
+      </p>
       <div className='panel-tabs'>
         <div
           className='is-active'
@@ -51,12 +54,14 @@ const ProjectList = ({ projects }) => {
           </div>
         ))}
       </div>
-      {!isEmpty(activeProjects) &&
-        activeProjects.map((item, i) => (
-          <div key={`${item}-${i}`} className='panel-block'>
-            {item}
-          </div>
-        ))}
+      <div style={{ maxHeight: '400px', overflow: 'auto' }}>
+        {!isEmpty(activeProjects) &&
+          activeProjects.map((item, i) => (
+            <div key={`${item}-${i}`} className='panel-block'>
+              {item}
+            </div>
+          ))}
+      </div>
     </nav>
   )
 }
@@ -67,7 +72,8 @@ const styles = {
     cursor: 'pointer',
   },
   activeTab: {
-    color: 'purple',
+    color: Colors.PURPLE.mid,
+    borderBottom: `1px solid ${Colors.ORANGE.mid}`,
   },
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-// import "../assets/proj-1-1.jpg"
+import Colors from '../../../config/colors'
 
 const Card = ({ card, setActiveCard, setModalIsOpen }) => {
   const handleModal = ({ card }) => {
@@ -21,14 +21,18 @@ const Card = ({ card, setActiveCard, setModalIsOpen }) => {
           )}
         </figure>
       </div>
-      <div className='card-content' style={{ height: '38%' }}>
+      <div className='card-content' style={{ height: '44%' }}>
         <p className='subtitle'>{card.title}</p>
 
         <div className='content'>{card.role}</div>
       </div>
       <footer
         className='card-footer'
-        style={{ cursor: 'pointer' }}
+        style={{
+          cursor: 'pointer',
+          backgroundColor: Colors.PURPLE.light,
+          color: 'white',
+        }}
         onClick={() => handleModal({ card })}
       >
         <p className='card-footer-item'>
