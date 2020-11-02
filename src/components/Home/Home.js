@@ -1,11 +1,12 @@
 import React from 'react'
-import Colors from '../../config/colors'
-//import bridge from './assets/orangesketch.png'
+import bridge from './assets/proj-3-1-bw.jpg'
+import { CardList } from './components'
 
 const Home = () => {
   return (
     <div>
       <div style={styles.topDiv}>
+        <div className='is-overlay' style={styles.overlay}></div>
         <div style={styles.spacing}>
           <div
             style={{
@@ -15,9 +16,19 @@ const Home = () => {
               justifyContent: 'center',
               alignItems: 'center',
               color: 'white',
+              marginTop: '10rem',
+              //backgroundColor: Colors.PURPLE.mid,
             }}
+            className='is-overlay'
           >
-            <div className='title' style={{ color: 'white' }}>
+            <div
+              className='title'
+              style={{
+                color: 'white',
+                fontSize: '4rem',
+                //fontFamily: 'Fredericka the Great, cursive',
+              }}
+            >
               Reaching new heights
             </div>
             <div className='subtitle' style={{ color: 'white' }}>
@@ -30,22 +41,31 @@ const Home = () => {
           </div> */}
         </div>
       </div>
-      <div>
-        Tim R. Purkeypile, PE, CFM, Owner <br />
-        2324 W. 7th Place, Suite 8<br />
-        Stillwater,Oklahoma 74074 <br />
-        (405)-255-9388 <br />
-        tim@purkeypileengineering.com
-        <br />
-        website: purkeypileengineering.com
-      </div>
+      <CardList />
+      <section className='hero is-bold'>
+        <div className='hero-body'>
+          <div className='container'>
+            <h1 className='title'>Tim R. Purkeypile, PE, CFM, Owner</h1>
+            <h2 className='subtitle'>
+              2324 W. 7th Place, Suite 8<br />
+              Stillwater,Oklahoma 74074 <br />
+              (405)-255-9388 <br />
+              tim@purkeypileengineering.com
+              <br />
+              website: purkeypileengineering.com
+            </h2>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
 
 const styles = {
   topDiv: {
-    backgroundColor: Colors.PURPLE.mid,
+    //backgroundColor: Colors.PURPLE.mid,
+    background: `url(${bridge})`,
+    backgroundSize: 'cover',
     height: '75vh',
   },
   spacing: {
@@ -54,13 +74,10 @@ const styles = {
     width: '100%',
     height: '100%',
   },
-  bridge: {
-    // backgroundImage: `url(${bridge})`,
-    // width: '100%',
-    // height: '100%',
-    // /* you need to match the shadow color to your background or image border for the desired effect*/
-    // boxShadow: `0 0 8px 8px ${Colors.PURPLE.mid} inset`,
-    // // width: '50%',
+  overlay: {
+    background:
+      'linear-gradient(to bottom, rgba(81, 40, 136, 1), rgba(81, 40, 136, 1) 15%, rgba(81, 40, 136, .6))',
+    height: '90vh',
   },
 }
 
