@@ -30,7 +30,7 @@ const Card = ({ card, setActiveCard, setModalIsOpen }) => {
         className='card-footer'
         style={{
           cursor: 'pointer',
-          backgroundColor: Colors.PURPLE.light,
+          backgroundColor: Colors.ORANGE.mid,
           color: 'white',
         }}
         onClick={() => handleModal({ card })}

@@ -3,9 +3,16 @@ import { Logo } from '../Logo'
 import { Link } from 'react-router-dom'
 import Colors from '../../config/colors'
 
+const links = [
+  { to: '/about', display: 'About Us' },
+  { to: '/credentials', display: 'Credentials' },
+  { to: '/clients', display: 'Services' },
+  { to: '/projects', display: 'Projects' },
+  { to: '/contact', display: 'Contact Us' },
+]
+
 const NavBar = () => {
   const [burger, setBurger] = useState(false)
-
   return (
     <nav
       className='navbar is-fixed-top'
@@ -47,51 +54,17 @@ const NavBar = () => {
         style={{ backgroundColor: Colors.PURPLE.mid }}
       >
         <div className='navbar-end'>
-          <div className='navbar-item'>
-            <Link
-              to='/about'
-              style={styles.link}
-              onClick={() => setBurger(false)}
-            >
-              About Us
-            </Link>
-          </div>
-          <div className='navbar-item'>
-            <Link
-              to='/credentials'
-              style={styles.link}
-              onClick={() => setBurger(false)}
-            >
-              Credentials
-            </Link>
-          </div>
-          <div className='navbar-item'>
-            <Link
-              to='/clients'
-              style={styles.link}
-              onClick={() => setBurger(false)}
-            >
-              Services
-            </Link>
-          </div>
-          <div className='navbar-item'>
-            <Link
-              to='/projects'
-              style={styles.link}
-              onClick={() => setBurger(false)}
-            >
-              Projects
-            </Link>
-          </div>
-          <div className='navbar-item'>
-            <Link
-              to='/contact'
-              style={styles.link}
-              onClick={() => setBurger(false)}
-            >
-              Contact Us
-            </Link>
-          </div>
+          {links.map((link) => (
+            <div key={link.to} className='navbar-item'>
+              <Link
+                to={link.to}
+                style={styles.link}
+                onClick={() => setBurger(false)}
+              >
+                {link.display}
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
     </nav>

@@ -72,7 +72,7 @@ const styles = {
     cursor: 'pointer',
   },
   activeTab: {
-    color: Colors.PURPLE.mid,
+    color: Colors.ORANGE.mid,
     borderBottom: `1px solid ${Colors.ORANGE.mid}`,
   },
 }
