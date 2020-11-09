@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import {
   AboutUs,
-  Contact,
+  // Contact,
   Credentials,
   Home,
   Projects,
@@ -30,7 +30,10 @@ const App = () => {
         <Route exact path='/credentials' component={Credentials} />
         <Route exact path='/clients' component={Services} />
         <Route exact path='/projects' component={Projects} />
-        <Route exact path='/contact' component={Contact} />
+        {/* <Route exact path='/contact' component={Contact} /> */}
+        <Route exact path='/contact'>
+          <Redirect to='/#contact' />
+        </Route>
         <Route exact path='/project-list'>
           <Redirect to='/projects' />
         </Route>

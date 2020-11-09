@@ -42,7 +42,7 @@ const Home = () => {
         </div>
       </div>
       <CardList />
-      <section className='hero is-bold'>
+      <section className='hero is-bold' id='contact'>
         <div className='hero-body'>
           <div className='container'>
             <h1 className='title'>Tim R. Purkeypile, PE, CFM, Owner</h1>
